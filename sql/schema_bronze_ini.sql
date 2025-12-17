@@ -1,0 +1,23 @@
+ALTER TABLE default.marica_listagem_cadastro_do_usuario_cap_2025_12 
+RENAME TO bronze.marica_listagem_cadastro_do_usuario_cap_2025_12;
+
+ALTER TABLE default.marica_listagem_consultas_cap_2025_12 
+RENAME TO bronze.marica_listagem_consultas_cap_2025_12;
+
+ALTER TABLE default.marica_listagem_nominal_atendimento_cap_2025_12 
+RENAME TO bronze.marica_listagem_nominal_atendimento_cap_2025_12;
+
+ALTER TABLE default.marica_subpav_mensal_exames_2025_12 
+RENAME TO bronze.marica_subpav_mensal_exames_2025_12;
+
+ALTER TABLE default.marica_subpav_mensal_exames_resultados_v_2_2025_12 
+RENAME TO bronze.marica_subpav_mensal_exames_resultados_v_2_2025_12;
+
+ALTER TABLE default.marica_subpav_mensal_exames_solicitados_2025_12 
+RENAME TO bronze.marica_subpav_mensal_exames_solicitados_2025_12;
+
+ALTER TABLE default.marica_subpav_plan_acomp_mensal_diab_2025_12 
+RENAME TO bronze.marica_subpav_plan_acomp_mensal_diab_2025_12;
+
+ALTER TABLE default.marica_subpav_plan_acomp_mensal_hiper_2025_12 
+RENAME TO bronze.marica_subpav_plan_acomp_mensal_hiper_2025_12;
