@@ -1,0 +1,13 @@
+# Dados sensíveis
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
