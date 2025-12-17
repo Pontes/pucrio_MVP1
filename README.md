@@ -25,7 +25,7 @@ Construir um pipeline de dados na nuvem (Databricks) a partir de exportações C
 Os CSVs reais não são publicados neste repositório por conterem dados sensíveis.
 Este repositório contém apenas código, documentação e evidências (prints/diagramas).
 
-## Como reproduzir (alto nível)
+## Como reproduzir
 1. Fazer upload dos CSVs no Databricks (delimiter `;`, header habilitado) e criar tabelas Delta.
 2. Executar os scripts em `/sql` na ordem:
    - `01_schemas.sql`
